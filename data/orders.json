@@ -1,0 +1,106 @@
+{
+  "orders": [
+    {
+      "order_id": "1234",
+      "customer_name": "Alice Johnson",
+      "customer_email": "alice@example.com",
+      "items": [
+        {"name": "Wireless Bluetooth Headphones", "quantity": 1, "price": 79.99},
+        {"name": "Phone Case - Black", "quantity": 2, "price": 14.99}
+      ],
+      "total": 109.97,
+      "status": "in_transit",
+      "shipping_method": "standard",
+      "order_date": "2026-02-05",
+      "estimated_delivery": "2026-02-16",
+      "tracking_number": "TRK9876543210",
+      "shipping_address": "123 Main St, New York, NY 10001"
+    },
+    {
+      "order_id": "1235",
+      "customer_name": "Bob Smith",
+      "customer_email": "bob@example.com",
+      "items": [
+        {"name": "USB-C Charging Cable 6ft", "quantity": 3, "price": 9.99}
+      ],
+      "total": 29.97,
+      "status": "delivered",
+      "shipping_method": "express",
+      "order_date": "2026-02-01",
+      "estimated_delivery": "2026-02-05",
+      "actual_delivery": "2026-02-04",
+      "tracking_number": "TRK1122334455",
+      "shipping_address": "456 Oak Ave, Los Angeles, CA 90001"
+    },
+    {
+      "order_id": "1236",
+      "customer_name": "Carol Davis",
+      "customer_email": "carol@example.com",
+      "items": [
+        {"name": "Laptop Stand - Aluminum", "quantity": 1, "price": 49.99},
+        {"name": "Wireless Mouse", "quantity": 1, "price": 29.99}
+      ],
+      "total": 79.98,
+      "status": "processing",
+      "shipping_method": "standard",
+      "order_date": "2026-02-12",
+      "estimated_delivery": "2026-02-21",
+      "tracking_number": null,
+      "shipping_address": "789 Pine Rd, Chicago, IL 60601"
+    },
+    {
+      "order_id": "1237",
+      "customer_name": "David Lee",
+      "customer_email": "david@example.com",
+      "items": [
+        {"name": "Mechanical Keyboard - RGB", "quantity": 1, "price": 129.99}
+      ],
+      "total": 129.99,
+      "status": "cancelled",
+      "shipping_method": "overnight",
+      "order_date": "2026-02-10",
+      "estimated_delivery": "2026-02-11",
+      "tracking_number": null,
+      "shipping_address": "321 Elm St, Houston, TX 77001",
+      "cancellation_reason": "Customer requested cancellation"
+    },
+    {
+      "order_id": "1238",
+      "customer_name": "Eva Martinez",
+      "customer_email": "eva@example.com",
+      "items": [
+        {"name": "Smart Watch - Series 5", "quantity": 1, "price": 249.99},
+        {"name": "Watch Band - Sport Blue", "quantity": 1, "price": 24.99}
+      ],
+      "total": 274.98,
+      "status": "delayed",
+      "shipping_method": "standard",
+      "order_date": "2026-01-28",
+      "estimated_delivery": "2026-02-06",
+      "tracking_number": "TRK5566778899",
+      "shipping_address": "654 Maple Dr, Phoenix, AZ 85001",
+      "delay_reason": "Weather conditions causing carrier delays"
+    },
+    {
+      "order_id": "1239",
+      "customer_name": "Frank Wilson",
+      "customer_email": "frank@example.com",
+      "items": [
+        {"name": "Portable Bluetooth Speaker", "quantity": 1, "price": 59.99},
+        {"name": "AUX Cable 3ft", "quantity": 1, "price": 6.99},
+        {"name": "Travel Pouch", "quantity": 1, "price": 12.99}
+      ],
+      "total": 79.97,
+      "status": "refunded",
+      "shipping_method": "express",
+      "order_date": "2026-01-20",
+      "estimated_delivery": "2026-01-24",
+      "actual_delivery": "2026-01-23",
+      "tracking_number": "TRK6677889900",
+      "shipping_address": "987 Cedar Ln, Seattle, WA 98101",
+      "refund_reason": "Product received damaged",
+      "refund_amount": 79.97,
+      "refund_date": "2026-01-30"
+    }
+  ]
+}
