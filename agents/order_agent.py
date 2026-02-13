@@ -55,14 +55,3 @@ def get_order_status(order_id: str) -> str:
             return json.dumps(result, indent=2)
 
     return json.dumps({"error": f"Order #{order_id} not found"})
-
-
-ORDER_AGENT_SYSTEM_MESSAGE = """You are an Order Lookup Agent. Your role is to look up
-customer order information from the database.
-
-When asked about an order:
-1. Extract the order ID from the query.
-2. Use the get_order_status function to retrieve order details.
-3. Return the order information clearly.
-
-You only report factual order data. Never guess or fabricate order information."""
